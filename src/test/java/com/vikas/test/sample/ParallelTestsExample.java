@@ -3,7 +3,9 @@ package com.vikas.test.sample;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
+/**
+* sample page object java class for page object model
+**/
 public class ParallelTestsExample {
 
 	
