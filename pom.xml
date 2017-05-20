@@ -4,6 +4,7 @@
 	<groupId>com.vikas.training</groupId>
 	<artifactId>myntraAutomation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<description>automation testing framework for batch S11</description>
 	<properties>
 		<browser>CHROME</browser>
 	</properties>
