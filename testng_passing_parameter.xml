@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Functional Tests" verbose="1">
+	<parameter name="USER_NAME" value="vikas"></parameter>
+	<parameter name="USER_EMAIL" value="vikas@mail.com"></parameter>
+	<parameter name="FEEDBACK_SUBJECT" value="this is nice subject"></parameter>
+	<parameter name="FEEDBACK_COMMENT" value="comment... comment... comment.."></parameter>
+
+	<test name="AltoroMutual">
+		<classes>
+			<class name="com.vikas.test.altoromutual.FeedbackFormTest">
+			</class>
+		</classes>
+	</test>
+</suite>

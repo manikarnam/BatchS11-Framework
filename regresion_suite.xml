@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke Tests" verbose="1">
+	<groups>
+		<run>
+			<include name="smoke"></include>
+			<exclude name="regression"></exclude>
+		</run>
+	</groups>
+	<parameter name="U_NAME" value="Bharti"></parameter>
+	<parameter name="PASS" value="Bharti"></parameter>
+	<test name="LoginTests">
+		<packages>
+			<package name="com.vikas.test.sample"></package>
+		</packages>
+	</test>
+</suite>

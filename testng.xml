@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke Tests" verbose="1">
+	<test name="LoginTests">
+		<classes>
+			<class name="com.vikas.test.SampleDependentTest">
+				<methods>
+					<include name="testCase3"></include>
+				</methods>
+			</class>
+			<class name="com.vikas.test.SampleTestGroups">
+				<methods>
+					<exclude name="test6"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
