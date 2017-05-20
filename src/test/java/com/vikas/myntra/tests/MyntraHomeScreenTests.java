@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import com.vikas.framework.core.WebDriverManager;
 import com.vikas.myntra.pages.LoginPage;
 import com.vikas.myntra.pages.MyntraHomeScreen;
-
+/** sample test class fr testing myntra application login **/
 public class MyntraHomeScreenTests {
 	WebDriver driver;
 
