@@ -6,7 +6,7 @@ public class Config {
 	
 	public static final Browser SELECTED_BROWSER = getBrowser();
 	public static final String FIREFOX_DRIVER_PATH = "C:\\Users\\vikas\\selenium_drivers\\geckodriver.exe";
-	public static final String CHROME_DRIVER_PATH = "/home/somnath/AshStudy/Selenium_Driver/chromedriver";
+	public static final String CHROME_DRIVER_PATH = "E:\chrome driverr";
 	public static final String SAFARI_DRIVER_PATH =  "";
 	public static final String IE_DRIVER_PATH =  "C:\\Users\\vikas\\selenium_drivers\\iedriverserver.exe";
 	public static final String EDGE_DRIVER_PATH =  "C:\\Users\\vikas\\selenium_drivers\\MicrosoftWebDriver.exe";
